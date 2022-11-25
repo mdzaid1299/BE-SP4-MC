@@ -3,11 +3,13 @@ package com.example.Auth.service;
 import com.example.Auth.domain.User;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+@Service
 public class SecurityTokenGeneratorImpl implements SecurityTokenGenerator {
 
     @Override

@@ -1,7 +1,9 @@
 package com.example.Music.domain;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document
 public class Track {
     @Id
     private int trackId;

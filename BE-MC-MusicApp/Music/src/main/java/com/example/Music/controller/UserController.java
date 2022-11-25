@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
+@RestController
 @RequestMapping("/trackdata/api/")
 public class UserController {
     @Autowired
